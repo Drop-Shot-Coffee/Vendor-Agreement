@@ -1,0 +1,1168 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+<meta charset="UTF-8" />
+<meta name="viewport" content="width=device-width, initial-scale=1.0" />
+<meta name="robots" content="noindex, nofollow" />
+<meta name="referrer" content="no-referrer" />
+<meta http-equiv="Content-Security-Policy" content="default-src 'none'; script-src 'unsafe-inline'; style-src 'unsafe-inline'; img-src data:; connect-src https://iwufnpzlwxzzedwcrjrk.supabase.co; base-uri 'none'; form-action 'none'" />
+<title>Drop Shot Coffee · Agreement</title>
+<style>
+  /* House template tokens and base, carried from the Moneyball consent page. Web fonts are not loaded: the stacks fall back to system faces. */
+  :root{
+    --ink:#0C2722; --ink-2:#11362E; --ink-3:#0A211C;
+    --court:#1C6B57; --court-bright:#2E977C;
+    --crema:#E3B05A; --crema-deep:#C2872F;
+    --paper:#F6F2EA; --paper-2:#FCF9F3;
+    --line:#E6DECC; --line-d:rgba(255,255,255,.16);
+    --text:#15322B; --muted:#5E6B63; --muted-d:#9DB3AB;
+    --ball:#D7DF4B; --maxw:1120px; --r:14px;
+  }
+  *{box-sizing:border-box;}
+  body{margin:0;font-family:"Inter",system-ui,-apple-system,"Segoe UI",Roboto,sans-serif;background:var(--paper);color:var(--text);line-height:1.6;-webkit-font-smoothing:antialiased;text-rendering:optimizeLegibility;}
+  h1,h2,h3,h4{font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;font-weight:700;line-height:1.04;margin:0;letter-spacing:-.02em;}
+  p{margin:0;} a{color:inherit;}
+  .mono{font-family:"JetBrains Mono",Menlo,Consolas,monospace;font-variant-numeric:tabular-nums;}
+  .brand{display:flex;align-items:center;gap:11px;color:#fff;text-decoration:none;flex:0 0 auto;}
+  .brand .court-mark{width:26px;height:20px;flex:0 0 auto;}
+  .brand b{font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;font-weight:700;font-size:15px;letter-spacing:.01em;}
+  .court-rule{height:1px;background:var(--line);position:relative;margin:0;}
+  .court-rule::after{content:"";position:absolute;left:50%;top:-3px;width:64px;height:7px;transform:translateX(-50%);border:1px solid var(--line);border-radius:2px;background:var(--paper);}
+  .eyebrow{font-size:11.5px;font-weight:600;letter-spacing:.2em;text-transform:uppercase;color:var(--crema-deep);}
+  .lead{font-size:18px;color:var(--muted);max-width:62ch;}
+  .foot{background:var(--ink-3);color:var(--muted-d);padding:30px 0;font-size:12.5px;}
+  .foot b{color:#fff;font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;}
+</style>
+<style>
+  /* Page additions. Desktop first: the large-screen layout is the base, narrower screens adapt below. Tokens only. */
+  [hidden]{display:none !important;}
+  body{display:flex;flex-direction:column;min-height:100vh;}
+  main{flex:1 0 auto;}
+  .pw{max-width:1400px;margin:0 auto;padding:0 40px;}
+  .hdr{background:var(--ink-3);border-bottom:1px solid var(--line-d);}
+  .hdr .pw{height:60px;display:flex;align-items:center;}
+  .test-banner{background:var(--ball);color:var(--ink-3);border-bottom:2px solid var(--ink-3);}
+  .test-banner .pw{display:flex;align-items:center;gap:12px;min-height:44px;padding-top:8px;padding-bottom:8px;font-size:14px;font-weight:600;}
+  .test-banner .tag{font-family:"JetBrains Mono",Menlo,Consolas,monospace;font-weight:700;font-size:13px;letter-spacing:.14em;background:var(--ink-3);color:var(--ball);padding:3px 9px;border-radius:6px;}
+  .skip{position:absolute;left:-9999px;top:0;background:var(--crema);color:var(--ink);padding:10px 14px;border-radius:0 0 10px 0;font-weight:600;z-index:60;}
+  .skip:focus{left:0;}
+  :focus-visible{outline:2px solid var(--crema-deep);outline-offset:2px;}
+
+  /* Intro */
+  .intro{display:flex;align-items:flex-end;justify-content:space-between;gap:40px;padding:36px 0 8px;}
+  .intro h1{font-size:40px;margin:10px 0 10px;}
+  .intro .lead{font-size:17px;}
+  .steps{list-style:none;margin:0;padding:0;display:flex;gap:10px;flex:0 0 auto;}
+  .steps li{display:flex;align-items:center;gap:8px;background:#fff;border:1px solid var(--line);border-radius:999px;padding:6px 14px 6px 6px;font-size:13.5px;font-weight:600;color:var(--text);white-space:nowrap;}
+  .steps .n{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:#fff;font-family:"JetBrains Mono",Menlo,Consolas,monospace;font-size:12px;}
+
+  /* Two columns: reading on the left, the form on the right */
+  .layout{display:grid;grid-template-columns:minmax(0,1fr) 480px;gap:40px;align-items:start;padding:24px 0 56px;}
+  .side{position:sticky;top:20px;max-height:calc(100vh - 40px);overflow:auto;border-radius:var(--r);}
+  .card{background:var(--paper-2);border:1px solid var(--line);border-radius:var(--r);padding:24px 28px;}
+  .card + .card{margin-top:20px;}
+  .card-h{display:flex;align-items:center;justify-content:space-between;gap:16px;flex-wrap:wrap;margin-bottom:6px;}
+  .card h2{font-size:21px;}
+  .card .sub{font-size:13.5px;color:var(--muted);margin:4px 0 14px;max-width:72ch;}
+
+  /* Summary of key terms, quoted from the agreement */
+  .sum{display:grid;grid-template-columns:190px minmax(0,1fr);gap:0;margin:0;border-top:1px solid var(--line);}
+  .sum dt,.sum dd{padding:14px 0;border-bottom:1px solid var(--line);margin:0;}
+  .sum dt{font-size:13.5px;font-weight:700;color:var(--text);padding-right:20px;}
+  .sum dd{font-family:"Times New Roman",Times,Georgia,serif;font-size:17px;line-height:1.5;color:#111;max-width:74ch;}
+  .sum dd p + p{margin-top:6px;}
+  .sum dd ul{margin:0 0 6px;padding-left:22px;}
+  .sum-note{font-size:13px;color:var(--muted);margin-top:14px;max-width:80ch;}
+
+  /* The full agreement, collapsed by default */
+  .btn-read{appearance:none;border:1.5px solid var(--court);background:#fff;color:var(--court);font-family:inherit;font-size:15px;font-weight:700;min-height:48px;padding:0 20px;border-radius:10px;cursor:pointer;display:inline-flex;align-items:center;gap:10px;}
+  .btn-read .chev{display:inline-block;width:10px;height:10px;border-right:2px solid currentColor;border-bottom:2px solid currentColor;transform:rotate(45deg);margin-top:-4px;}
+  .btn-read[aria-expanded="true"] .chev{transform:rotate(-135deg);margin-top:4px;}
+  .read-state{font-size:13px;color:var(--muted);}
+  .read-state.ok{color:var(--court);font-weight:600;}
+  .doc-wrap{margin-top:18px;}
+  .doc{background:#fff;color:#111;border:1px solid var(--line);border-radius:6px;padding:56px 64px;font-family:"Times New Roman",Times,Georgia,serif;font-size:18px;line-height:1.6;}
+  .doc > *{max-width:74ch;margin-left:auto;margin-right:auto;}
+  .doc h1{font-family:inherit;font-size:23px;font-weight:700;letter-spacing:.02em;text-align:center;margin:0 auto 24px;line-height:1.25;}
+  .doc h2{font-family:inherit;font-size:19px;font-weight:700;letter-spacing:0;margin:28px auto 10px;line-height:1.3;}
+  .doc h3,.doc h4,.doc h5,.doc h6{font-family:inherit;font-size:18px;font-weight:700;letter-spacing:0;margin:18px auto 8px;line-height:1.3;}
+  .doc p{margin:0 auto 12px;}
+  .doc ul,.doc ol{margin:0 auto 12px;padding-left:28px;}
+  .doc li{margin:0 0 6px;}
+  .doc blockquote{margin:0 auto 12px;padding-left:16px;border-left:2px solid #999;}
+  .doc hr{border:0;border-top:1px solid #999;margin:20px auto;}
+  .doc table{border-collapse:collapse;margin:0 auto 14px;width:100%;font-size:16px;}
+  .doc th,.doc td{border:1px solid #999;padding:6px 8px;text-align:left;vertical-align:top;}
+  .doc code{font-family:"JetBrains Mono",Menlo,Consolas,monospace;font-size:.9em;}
+  .doc a{color:#111;}
+  .blank{background:#FFF6DC;border-bottom:1.5px dashed var(--crema-deep);padding:0 3px;border-radius:2px;color:#6b4a10;font-style:italic;white-space:pre-wrap;}
+  .blank.filled{background:#EAF4EF;border-bottom:1.5px solid var(--court);color:#111;font-style:normal;}
+  .blank.server{background:#F1EFEA;border-bottom:1.5px dashed #888;color:#555;}
+  .doc-foot{display:flex;justify-content:center;margin-top:14px;}
+
+  /* Exhibits */
+  .ex-list{list-style:none;margin:0;padding:0;display:grid;grid-template-columns:1fr 1fr;gap:12px;}
+  .ex-item{display:flex;align-items:center;justify-content:space-between;gap:12px;background:#fff;border:1px solid var(--line);border-radius:12px;padding:12px 12px 12px 16px;}
+  .ex-txt{min-width:0;}
+  .ex-title{font-size:14.5px;font-weight:600;color:var(--text);overflow-wrap:anywhere;}
+  .ex-prec{font-size:12px;color:var(--muted);}
+  .ex-msg{font-size:12.5px;color:var(--text);font-weight:600;margin-top:4px;}
+  .ex-msg a{color:var(--court);}
+  .btn-open{appearance:none;border:1px solid var(--court);background:#fff;color:var(--court);font-family:inherit;font-size:14px;font-weight:600;min-height:44px;min-width:76px;padding:0 14px;border-radius:10px;cursor:pointer;flex:0 0 auto;}
+  .btn-open[disabled]{opacity:.6;cursor:default;}
+
+  /* The form */
+  .form-card{padding:24px 26px;}
+  .sec{border:0;margin:0;padding:18px 0 4px;min-width:0;border-top:1px solid var(--line);}
+  .sec:first-of-type{border-top:0;padding-top:4px;}
+  .sec legend{float:left;width:100%;display:flex;align-items:center;gap:10px;font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;font-weight:700;font-size:17px;padding:0;margin:0 0 10px;color:var(--text);}
+  .sec legend .n{display:inline-flex;align-items:center;justify-content:center;width:24px;height:24px;border-radius:50%;background:var(--ink);color:#fff;font-family:"JetBrains Mono",Menlo,Consolas,monospace;font-size:12px;font-weight:700;}
+  .sec legend + *{clear:left;}
+  .sec .note{font-size:13px;color:var(--muted);margin:-2px 0 12px;}
+  .row2{display:grid;grid-template-columns:1fr 1fr;gap:0 14px;}
+  .fld{margin:0 0 14px;min-width:0;}
+  .fld label,.fld .lbl{display:block;font-size:13px;font-weight:600;color:var(--text);margin-bottom:5px;}
+  .opt{font-weight:500;color:var(--muted);}
+  .inp{width:100%;min-height:46px;font-size:16px;font-family:inherit;color:var(--text);background:#fff;border:1.5px solid #B9B09C;border-radius:10px;padding:9px 12px;}
+  textarea.inp{min-height:72px;resize:vertical;line-height:1.4;}
+  .inp:focus-visible{outline:2px solid var(--crema-deep);outline-offset:1px;border-color:var(--court);}
+  .inp[aria-invalid="true"]{border-color:#9B2C1F;}
+  .hint{font-size:12.5px;color:var(--muted);margin-top:4px;}
+  .err{font-size:12.5px;color:#9B2C1F;font-weight:600;margin-top:4px;}
+  .ok{font-size:12.5px;color:var(--court);font-weight:600;margin-top:4px;}
+  .chk{display:flex;gap:10px;align-items:flex-start;margin:0 0 12px;font-size:14.5px;}
+  .chk input{width:22px;height:22px;margin:1px 0 0;flex:0 0 auto;accent-color:var(--court);}
+  .chk label{cursor:pointer;}
+  .w9-box{background:#fff;border:1.5px dashed #B9B09C;border-radius:10px;padding:12px 14px;}
+  .w9-row{display:flex;align-items:center;gap:10px;flex-wrap:wrap;}
+  .w9-status{font-size:13px;margin-top:8px;}
+  .w9-status.good{color:var(--court);font-weight:600;}
+  .w9-status.bad{color:#9B2C1F;font-weight:600;}
+  .bar{height:6px;background:#EEE7D8;border-radius:3px;overflow:hidden;margin-top:8px;}
+  .bar i{display:block;height:100%;width:0;background:var(--court);}
+  .btn-small{appearance:none;border:1px solid var(--line);background:#fff;color:var(--text);font-family:inherit;font-size:14px;font-weight:600;min-height:44px;padding:0 14px;border-radius:10px;cursor:pointer;}
+  .btn-small.primary{border-color:var(--court);color:var(--court);}
+  .btn-small[disabled]{opacity:.55;cursor:default;}
+  input[type=file].inp{padding:9px;min-height:46px;}
+  .clickwrap{font-size:14px;color:var(--text);margin:4px 0 12px;}
+  .linklike{appearance:none;border:0;background:none;padding:0;font:inherit;color:var(--court);font-weight:700;text-decoration:underline;text-underline-offset:2px;cursor:pointer;min-height:24px;}
+  .btn-accept{display:block;width:100%;min-height:54px;padding:14px 18px;border:0;border-radius:12px;background:var(--crema);color:var(--ink);font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;font-weight:700;font-size:18px;letter-spacing:.01em;cursor:pointer;}
+  .btn-accept:active{background:var(--crema-deep);}
+  .btn-accept[aria-disabled="true"]{background:#E9E2D2;color:#5E6B63;cursor:not-allowed;}
+  .needs{font-size:12.5px;color:var(--muted);margin:10px 0 0;padding-left:18px;}
+  .needs li{margin:0 0 2px;}
+  .form-msg{margin-top:10px;font-size:14px;font-weight:600;color:#9B2C1F;background:#FBEDEA;border:1px solid #E7C3BC;border-radius:10px;padding:10px 12px;}
+  .btn-plain{appearance:none;border:1px solid var(--line);background:#fff;color:var(--text);font-family:inherit;font-size:14px;font-weight:600;min-height:44px;padding:0 16px;border-radius:10px;cursor:pointer;}
+
+  /* Notices */
+  .notice{padding-top:72px;padding-bottom:80px;max-width:760px;margin:0 auto;}
+  .notice h1{font-size:34px;margin:10px 0 12px;}
+  .notice p{font-size:17px;color:var(--muted);margin-bottom:18px;}
+  .loading-line{font-size:16px;color:var(--muted);padding:72px 0;}
+
+  /* Done */
+  .done-grid{display:grid;grid-template-columns:400px minmax(0,1fr);gap:40px;align-items:start;padding:32px 0 56px;}
+  .done-side{position:sticky;top:20px;}
+  .confirm-box{background:#fff;border:1px solid var(--line);border-left:3px solid var(--court);border-radius:12px;padding:22px 24px;}
+  .confirm-box h1{font-size:26px;margin:8px 0 14px;line-height:1.15;}
+  .kv{display:grid;grid-template-columns:max-content 1fr;gap:8px 16px;font-size:14.5px;margin:0;}
+  .kv dt{color:var(--muted);font-weight:600;}
+  .kv dd{margin:0;overflow-wrap:anywhere;}
+  .confirm-actions{display:flex;flex-direction:column;gap:10px;margin-top:18px;}
+  .btn-print{appearance:none;border:0;border-radius:10px;background:var(--crema);color:var(--ink);font-family:"Bricolage Grotesque","Inter",system-ui,sans-serif;font-weight:700;font-size:16px;min-height:50px;padding:0 22px;cursor:pointer;}
+  .print-hint{font-size:12.5px;color:var(--muted);margin-top:10px;}
+
+  /* State switching */
+  .state{display:none;}
+  body[data-state="loading"] .s-loading{display:block;}
+  body[data-state="invalid"] .s-invalid{display:block;}
+  body[data-state="notopen"] .s-notopen{display:block;}
+  body[data-state="network"] .s-network{display:block;}
+  body[data-state="offline"] .s-offline{display:block;}
+  body[data-state="ready"] .s-ready{display:block;}
+  body[data-state="done"] .s-done{display:block;}
+
+  /* Narrower screens */
+  @media (max-width:1240px){
+    .layout{grid-template-columns:minmax(0,1fr) 420px;gap:28px;}
+    .steps{display:none;}
+    .doc{padding:44px 44px;}
+  }
+  @media (max-width:1000px){
+    .pw{padding:0 24px;}
+    .layout{grid-template-columns:1fr;gap:24px;}
+    .side{position:static;max-height:none;overflow:visible;}
+    .done-grid{grid-template-columns:1fr;gap:24px;}
+    .done-side{position:static;}
+    .intro{display:block;}
+    .intro h1{font-size:32px;}
+  }
+  @media (max-width:640px){
+    .pw{padding:0 16px;}
+    .card{padding:18px 16px;}
+    .form-card{padding:18px 16px;}
+    .sum{grid-template-columns:1fr;}
+    .sum dt{border-bottom:0;padding:12px 0 2px;}
+    .sum dd{padding:0 0 12px;font-size:16px;}
+    .ex-list{grid-template-columns:1fr;}
+    .doc{padding:24px 18px;font-size:16px;}
+    .doc h1{font-size:19px;}
+    .row2{grid-template-columns:1fr;}
+    .intro h1{font-size:27px;}
+    .notice h1{font-size:26px;}
+  }
+
+  /* Print: the executed copy only, as a plain instrument */
+  @media print{
+    @page{size:letter;margin:1in;}
+    body{background:#fff;color:#000;display:block;min-height:0;}
+    .hdr,.skip,.foot,.court-rule,.s-loading,.s-invalid,.s-notopen,.s-network,.s-offline,.s-ready,.done-side,.no-print{display:none !important;}
+    body[data-state="done"] .s-done{display:block;}
+    .pw{max-width:none;padding:0;margin:0;}
+    .done-grid{display:block;padding:0;}
+    .test-banner{background:#fff;border:2px solid #000;color:#000;margin-bottom:14pt;}
+    .test-banner .tag{background:#000;color:#fff;}
+    .doc{border:0;border-radius:0;padding:0;font-size:12pt;line-height:1.4;color:#000;}
+    .doc > *{max-width:none;}
+    .doc h1{font-size:14pt;} .doc h2{font-size:12pt;break-after:avoid;} .doc h3,.doc h4{font-size:12pt;break-after:avoid;}
+    .doc li,.doc p{orphans:3;widows:3;}
+    .blank,.blank.filled,.blank.server{background:none;border:0;color:#000;font-style:normal;padding:0;}
+  }
+</style>
+</head>
+<body data-state="loading">
+<a class="skip" href="#form-h" id="skip-link" hidden>Skip to the form</a>
+
+<header class="hdr">
+  <div class="pw">
+    <span class="brand">
+      <svg class="court-mark" viewBox="0 0 26 20" fill="none" aria-hidden="true">
+        <rect x="1" y="1" width="24" height="18" rx="2" stroke="#E3B05A" stroke-width="1.4"/>
+        <line x1="13" y1="1" x2="13" y2="19" stroke="#E3B05A" stroke-width="1.1"/>
+        <line x1="1" y1="6.5" x2="25" y2="6.5" stroke="#2E977C" stroke-width="1.1"/>
+        <line x1="1" y1="13.5" x2="25" y2="13.5" stroke="#2E977C" stroke-width="1.1"/>
+      </svg>
+      <b>Drop Shot Coffee</b>
+    </span>
+  </div>
+</header>
+
+<div class="test-banner" id="test-banner" role="note" hidden>
+  <div class="pw"><span class="tag">TEST</span><span>This is a test agreement for review.</span></div>
+</div>
+
+<main id="main">
+
+<section class="state s-loading" aria-live="polite">
+  <div class="pw"><p class="loading-line">Loading your agreement.</p></div>
+</section>
+
+<section class="state s-invalid">
+  <div class="pw"><div class="notice">
+    <span class="eyebrow">Agreement</span>
+    <h1 id="invalid-title">This link does not work.</h1>
+    <p id="invalid-body">It may be incomplete, or it may have expired. Open the link exactly as you received it, or ask Drop Shot Coffee for a new one.</p>
+  </div></div>
+</section>
+
+<section class="state s-notopen">
+  <div class="pw"><div class="notice">
+    <span class="eyebrow">Agreement</span>
+    <h1>This agreement is not open for signing.</h1>
+    <p>It has not been released for acceptance, or it has been withdrawn. Nothing has been recorded. Ask Drop Shot Coffee if you expected to sign it.</p>
+  </div></div>
+</section>
+
+<section class="state s-network">
+  <div class="pw"><div class="notice">
+    <span class="eyebrow">Agreement</span>
+    <h1>We could not reach the server.</h1>
+    <p>Check your connection and try again. Nothing has been recorded.</p>
+    <button class="btn-plain" type="button" id="retry">Try again</button>
+  </div></div>
+</section>
+
+<section class="state s-offline">
+  <div class="pw"><div class="notice">
+    <span class="eyebrow">Agreement</span>
+    <h1>You are offline.</h1>
+    <p>Connect to the internet and open this link again.</p>
+    <button class="btn-plain" type="button" id="retry-offline">Try again</button>
+  </div></div>
+</section>
+
+<section class="state s-ready" id="ready" hidden>
+  <div class="pw">
+    <div class="intro">
+      <div>
+        <span class="eyebrow">Agreement for your review and acceptance</span>
+        <h1 id="ready-title">Agreement</h1>
+        <p class="lead">Review the key terms and the full agreement, then complete the form and accept.</p>
+      </div>
+      <ol class="steps" aria-label="Steps">
+        <li><span class="n">1</span>Review the terms</li>
+        <li><span class="n">2</span>Your details and dates</li>
+        <li><span class="n">3</span>Sign and accept</li>
+      </ol>
+    </div>
+    <div class="layout">
+      <div class="primary">
+        <section class="card" id="summary-card" aria-labelledby="sum-h" hidden>
+          <div class="card-h"><h2 id="sum-h">Key terms</h2></div>
+          <p class="sub">Quoted word for word from the agreement.</p>
+          <dl class="sum" id="summary"></dl>
+          <p class="sum-note">This summary is not the whole agreement. The full agreement governs; if anything here appears to differ from it, the agreement applies.</p>
+        </section>
+
+        <section class="card" id="agreement-card" aria-labelledby="doc-h">
+          <div class="card-h">
+            <h2 id="doc-h" tabindex="-1">The full agreement</h2>
+            <span class="read-state" id="read-state">Not opened yet</span>
+          </div>
+          <p class="sub" id="doc-sub">Open it to read every term. The highlighted blanks fill in as you complete the form.</p>
+          <button class="btn-read" type="button" id="toggle-doc" aria-expanded="false" aria-controls="doc-wrap"><span id="toggle-label">Read the full agreement</span><span class="chev" aria-hidden="true"></span></button>
+          <div class="doc-wrap" id="doc-wrap" hidden>
+            <article class="doc" id="doc" aria-label="Agreement text"></article>
+            <div class="doc-foot"><button class="btn-plain" type="button" id="collapse-doc">Hide the full agreement</button></div>
+          </div>
+        </section>
+
+        <section class="card" aria-labelledby="ex-h">
+          <h2 id="ex-h">Exhibits</h2>
+          <p class="sub">These documents form part of the agreement, in the order of precedence shown, after the agreement itself. Each opens in a new tab through a link that lasts five minutes.</p>
+          <ol class="ex-list" id="ex-list"></ol>
+        </section>
+      </div>
+
+      <aside class="side" aria-labelledby="form-h">
+        <form class="card form-card" id="form" novalidate autocomplete="on">
+          <h2 id="form-h" tabindex="-1" style="margin-bottom:4px">Complete and accept</h2>
+          <p class="sub" style="margin-bottom:10px">All fields are required unless marked optional.</p>
+
+          <fieldset class="sec">
+            <legend><span class="n">1</span>Your details</legend>
+            <div class="fld">
+              <label for="f-full_name">Full legal name</label>
+              <input class="inp" id="f-full_name" name="full_name" type="text" autocomplete="name" maxlength="200" aria-describedby="e-full_name" required>
+              <div class="err" id="e-full_name" hidden></div>
+            </div>
+            <div class="fld">
+              <label for="f-mailing_address">Mailing address</label>
+              <textarea class="inp" id="f-mailing_address" name="mailing_address" autocomplete="street-address" maxlength="500" aria-describedby="e-mailing_address" required></textarea>
+              <div class="err" id="e-mailing_address" hidden></div>
+            </div>
+            <div class="fld">
+              <label for="f-email">Email</label>
+              <input class="inp" id="f-email" name="email" type="email" autocomplete="email" inputmode="email" maxlength="254" aria-describedby="e-email" required>
+              <div class="err" id="e-email" hidden></div>
+            </div>
+            <div class="chk"><input type="checkbox" id="f-has_entity"><label for="f-has_entity">I am signing for a business <span class="opt">(optional)</span></label></div>
+            <div id="entity-fields" hidden>
+              <div class="fld">
+                <label for="f-entity_name">Business name</label>
+                <input class="inp" id="f-entity_name" name="entity_name" type="text" autocomplete="organization" maxlength="200" aria-describedby="h-entity_name e-entity_name">
+                <div class="hint" id="h-entity_name">Exactly as registered.</div>
+                <div class="err" id="e-entity_name" hidden></div>
+              </div>
+              <div class="row2">
+                <div class="fld">
+                  <label for="f-entity_type">Type of business</label>
+                  <input class="inp" id="f-entity_type" name="entity_type" type="text" maxlength="100" list="entity-types" aria-describedby="h-entity_type e-entity_type">
+                  <datalist id="entity-types"><option value="limited liability company"><option value="corporation"><option value="limited partnership"><option value="general partnership"></datalist>
+                  <div class="hint" id="h-entity_type">For example: limited liability company.</div>
+                  <div class="err" id="e-entity_type" hidden></div>
+                </div>
+                <div class="fld">
+                  <label for="f-entity_state">State where registered</label>
+                  <input class="inp" id="f-entity_state" name="entity_state" type="text" maxlength="60" aria-describedby="h-entity_state e-entity_state">
+                  <div class="hint" id="h-entity_state">For example: California.</div>
+                  <div class="err" id="e-entity_state" hidden></div>
+                </div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sec" id="dates-fs" hidden>
+            <legend><span class="n">2</span>Your delivery dates</legend>
+            <p class="note" id="dates-note"></p>
+            <div class="row2">
+              <div class="fld">
+                <label for="f-date_directions">First directions presented</label>
+                <input class="inp mono" id="f-date_directions" name="date_directions" type="date" aria-describedby="h-date_directions e-date_directions">
+                <div class="hint" id="h-date_directions"></div>
+                <div class="err" id="e-date_directions" hidden></div>
+              </div>
+              <div class="fld">
+                <label for="f-date_refinement">Refinement complete</label>
+                <input class="inp mono" id="f-date_refinement" name="date_refinement" type="date" aria-describedby="h-date_refinement e-date_refinement">
+                <div class="hint" id="h-date_refinement"></div>
+                <div class="err" id="e-date_refinement" hidden></div>
+              </div>
+              <div class="fld">
+                <label for="f-date_final_a">Final files, Line A: your delivery date</label>
+                <input class="inp mono" id="f-date_final_a" name="date_final_a" type="date" aria-describedby="h-date_final_a e-date_final_a">
+                <div class="hint" id="h-date_final_a"></div>
+                <div class="err" id="e-date_final_a" hidden></div>
+              </div>
+              <div class="fld">
+                <label for="f-date_final_d">Final files, Line D: your delivery date</label>
+                <input class="inp mono" id="f-date_final_d" name="date_final_d" type="date" aria-describedby="h-date_final_d e-date_final_d">
+                <div class="hint" id="h-date_final_d"></div>
+                <div class="err" id="e-date_final_d" hidden></div>
+              </div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sec" id="w9-fs">
+            <legend><span class="n" id="w9-n">3</span>Upload your W-9 <span class="opt">(optional)</span></legend>
+            <p class="note">PDF, JPEG, PNG, HEIC or HEIF, up to 10 MB. You can accept without it.</p>
+            <div class="w9-box">
+              <label class="lbl" for="f-w9" style="font-size:13px;font-weight:600;display:block;margin-bottom:6px">W-9 file</label>
+              <input class="inp" id="f-w9" type="file" accept=".pdf,.jpg,.jpeg,.png,.heic,.heif,application/pdf,image/jpeg,image/png,image/heic,image/heif" aria-describedby="w9-status">
+              <div class="w9-row" style="margin-top:10px">
+                <button class="btn-small primary" type="button" id="w9-upload" disabled>Upload W-9</button>
+                <button class="btn-small" type="button" id="w9-clear" hidden>Do not attach</button>
+              </div>
+              <div class="bar" id="w9-bar" hidden><i id="w9-bar-fill"></i></div>
+              <div class="w9-status" id="w9-status" aria-live="polite"></div>
+            </div>
+          </fieldset>
+
+          <fieldset class="sec">
+            <legend><span class="n" id="sign-n">4</span>Sign and accept</legend>
+            <div class="chk"><input type="checkbox" id="f-consent_esign" name="consent_esign"><label for="f-consent_esign">I consent to sign electronically</label></div>
+            <div class="chk"><input type="checkbox" id="f-consent_agree" name="consent_agree"><label for="f-consent_agree">I have read and agree</label></div>
+            <div class="fld">
+              <label for="f-typed_signature">Typed signature</label>
+              <input class="inp" id="f-typed_signature" name="typed_signature" type="text" autocomplete="off" maxlength="200" aria-describedby="h-typed_signature s-typed_signature">
+              <div class="hint" id="h-typed_signature">Type your full legal name exactly as you entered it above.</div>
+              <div class="hint" id="s-typed_signature" aria-live="polite"></div>
+            </div>
+            <p class="clickwrap" id="clickwrap">By clicking Accept, you agree to the <button class="linklike" type="button" id="open-from-accept">Design Services Agreement</button>.</p>
+            <button class="btn-accept" id="accept" type="submit" aria-disabled="true" aria-describedby="clickwrap needs">Accept</button>
+            <ul class="needs" id="needs" aria-live="polite"></ul>
+            <div class="form-msg" id="form-msg" role="alert" hidden></div>
+          </fieldset>
+        </form>
+      </aside>
+    </div>
+  </div>
+</section>
+
+<section class="state s-done" id="done" hidden>
+  <div class="pw">
+    <div class="done-grid">
+      <aside class="done-side">
+        <div class="confirm-box" id="confirm-box" tabindex="-1">
+          <span class="eyebrow">Accepted</span>
+          <h1>Thank you. Your acceptance is recorded.</h1>
+          <dl class="kv">
+            <dt>Reference</dt><dd class="mono" id="d-ref"></dd>
+            <dt>Accepted</dt><dd id="d-at"></dd>
+            <dt>Accepted by</dt><dd id="d-name"></dd>
+            <dt id="d-w9-dt" hidden>W-9</dt><dd id="d-w9" hidden></dd>
+            <dt>Text fingerprint</dt><dd class="mono" id="d-sha" style="font-size:12px"></dd>
+          </dl>
+          <div class="confirm-actions">
+            <button class="btn-print" type="button" id="print">Print or save as PDF</button>
+            <button class="btn-plain" type="button" id="test-again" hidden>Show the form again (test only)</button>
+          </div>
+          <p class="print-hint">Your executed copy is shown here. To keep it as a PDF, choose Print, then Save as PDF.</p>
+        </div>
+      </aside>
+      <article class="doc" id="executed" aria-label="Executed agreement"></article>
+    </div>
+  </div>
+</section>
+
+</main>
+
+<div class="pw" style="width:100%"><div class="court-rule"></div></div>
+<footer class="foot"><div class="pw"><span><b>Drop Shot Coffee, Inc.</b></span></div></footer>
+
+<script>
+(function () {
+  "use strict";
+  var SUPABASE_URL = "https://iwufnpzlwxzzedwcrjrk.supabase.co";
+  var SUPABASE_PUBLISHABLE_KEY = "sb_publishable_suHnnWiR60uSP_bKx9V_Yg_GJoCzddq";
+
+  var q = new URLSearchParams(location.search);
+  var token = q.get("t") || "";
+  var preview = q.get("preview") === "1";
+
+  var A = null;              // the get_agreement response, in memory only
+  var agreementMd = "";      // the exact string displayed and hashed
+  var fullOpenedAt = "";     // ISO time of the first expansion of the full agreement
+  var submitting = false;
+  var touched = {};
+  var W9 = { file: null, type: "", path: "", state: "none" };   // none | chosen | uploading | done | failed
+
+  function $(id) { return document.getElementById(id); }
+  function setState(s) {
+    document.body.setAttribute("data-state", s);
+    $("ready").hidden = s !== "ready";
+    $("done").hidden = s !== "done";
+  }
+
+  /* ---------- Network ---------- */
+  function hdrs() { return { "apikey": SUPABASE_PUBLISHABLE_KEY, "Authorization": "Bearer " + SUPABASE_PUBLISHABLE_KEY, "Content-Type": "application/json" }; }
+  function rpc(name, body) {
+    return fetch(SUPABASE_URL + "/rest/v1/rpc/" + name, { method: "POST", headers: hdrs(), body: JSON.stringify(body), credentials: "omit", cache: "no-store" })
+      .then(function (r) {
+        return r.json().catch(function () { return null; }).then(function (j) {
+          if (j && typeof j === "object" && "ok" in j) return j;
+          var e = new Error("http " + r.status); e.http = r.status; throw e;
+        });
+      });
+  }
+  function fn(name, body) {
+    return fetch(SUPABASE_URL + "/functions/v1/" + name, { method: "POST", headers: hdrs(), body: JSON.stringify(body), credentials: "omit", cache: "no-store" })
+      .then(function (r) { return r.json().catch(function () { return { ok: false, error: "http_" + r.status }; }); });
+  }
+
+  /* ---------- Safe Markdown: DOM nodes and text only, never innerHTML ---------- */
+  var BLANK_LABEL = {
+    designer_party: "Your name, or your business",
+    designer_full_name: "Your full legal name",
+    designer_mailing_address: "Your mailing address",
+    designer_email: "Your email",
+    designer_signature: "Your typed signature",
+    acceptance_timestamp: "Set when you accept",
+    acceptance_reference: "Set when you accept",
+    designer_date_directions: "Your date: first directions",
+    designer_date_refinement: "Your date: refinement complete",
+    designer_date_final_a: "Your date: final files, Line A",
+    designer_date_final_d: "Your date: final files, Line D"
+  };
+  var SERVER_ONLY = { acceptance_timestamp: 1, acceptance_reference: 1 };
+  var ENT = { amp: "&", lt: "<", gt: ">", quot: "\"", apos: "'", nbsp: " " };
+  function decodeEntities(s) {
+    return s.replace(/&(#x[0-9a-fA-F]+|#[0-9]+|[a-z]+);/g, function (m, e) {
+      if (e.charAt(0) === "#") {
+        var n = e.charAt(1) === "x" ? parseInt(e.slice(2), 16) : parseInt(e.slice(1), 10);
+        if (n > 0 && n < 0x110000 && n !== 0x2014 && n !== 0x2013) { try { return String.fromCodePoint(n); } catch (x) { return m; } }
+        return m;
+      }
+      return Object.prototype.hasOwnProperty.call(ENT, e) ? ENT[e] : m;
+    });
+  }
+  function el(tag, cls) { var e = document.createElement(tag); if (cls) e.className = cls; return e; }
+  function blankNode(name) {
+    var s = el("span", "blank" + (SERVER_ONLY[name] ? " server" : ""));
+    s.setAttribute("data-ph", name);
+    s.textContent = "[" + (BLANK_LABEL[name] || name.replace(/_/g, " ")) + "]";
+    return s;
+  }
+  function inline(src, parent) {
+    var buf = "", i = 0, n = src.length, m, j;
+    function flush() { if (buf) { parent.appendChild(document.createTextNode(decodeEntities(buf))); buf = ""; } }
+    while (i < n) {
+      var c = src.charAt(i);
+      if (c === "\\" && i + 1 < n && /[\\`*_{}\[\]()#+\-.!|>~]/.test(src.charAt(i + 1))) { buf += src.charAt(i + 1); i += 2; continue; }
+      if (c === "{" && src.charAt(i + 1) === "{") {
+        m = /^\{\{([a-z0-9_]+)\}\}/.exec(src.slice(i));
+        if (m) { flush(); parent.appendChild(blankNode(m[1])); i += m[0].length; continue; }
+      }
+      if (c === "*" && src.charAt(i + 1) === "*") {
+        j = src.indexOf("**", i + 2);
+        if (j > i + 2) { flush(); var b = el("strong"); inline(src.slice(i + 2, j), b); parent.appendChild(b); i = j + 2; continue; }
+      }
+      if (c === "*" && i + 1 < n && src.charAt(i + 1) !== " " && src.charAt(i + 1) !== "*") {
+        j = src.indexOf("*", i + 1);
+        if (j > i + 1 && src.charAt(j - 1) !== " ") { flush(); var em = el("em"); inline(src.slice(i + 1, j), em); parent.appendChild(em); i = j + 1; continue; }
+      }
+      if (c === "`") {
+        j = src.indexOf("`", i + 1);
+        if (j > i) { flush(); var code = el("code"); code.textContent = src.slice(i + 1, j); parent.appendChild(code); i = j + 1; continue; }
+      }
+      if (c === "[") {
+        m = /^\[([^\]]+)\]\((https:\/\/[^\s)]+)\)/.exec(src.slice(i));
+        if (m) { flush(); var a = el("a"); a.textContent = m[1]; a.setAttribute("href", m[2]); a.setAttribute("target", "_blank"); a.setAttribute("rel", "noopener noreferrer"); parent.appendChild(a); i += m[0].length; continue; }
+      }
+      buf += c; i++;
+    }
+    flush();
+  }
+  function splitRow(line) {
+    var s = line.trim();
+    if (s.charAt(0) === "|") s = s.slice(1);
+    if (s.charAt(s.length - 1) === "|" && s.charAt(s.length - 2) !== "\\") s = s.slice(0, -1);
+    var cells = [], cur = "";
+    for (var i = 0; i < s.length; i++) {
+      if (s.charAt(i) === "\\" && s.charAt(i + 1) === "|") { cur += "\\|"; i++; continue; }
+      if (s.charAt(i) === "|") { cells.push(cur.trim()); cur = ""; continue; }
+      cur += s.charAt(i);
+    }
+    cells.push(cur.trim());
+    return cells;
+  }
+  function renderMarkdown(md, root) {
+    while (root.firstChild) root.removeChild(root.firstChild);
+    var lines = String(md).replace(/\r\n?/g, "\n").split("\n");
+    var para = [], list = null, listType = "", lastLi = null, i = 0;
+    function endPara() {
+      if (!para.length) return;
+      var p = el("p");
+      for (var k = 0; k < para.length; k++) {
+        var t = para[k], hard = / {2,}$/.test(t) || /\\$/.test(t);
+        t = t.replace(/ {2,}$/, "").replace(/\\$/, "");
+        inline(k < para.length - 1 && !hard ? t + " " : t, p);
+        if (hard && k < para.length - 1) p.appendChild(el("br"));
+      }
+      root.appendChild(p); para = [];
+    }
+    function endList() { list = null; listType = ""; lastLi = null; }
+    while (i < lines.length) {
+      var line = lines[i], m;
+      if (/^\s*$/.test(line)) { endPara(); endList(); i++; continue; }
+      if ((m = /^(#{1,6})\s+(.*?)\s*#*\s*$/.exec(line))) {
+        endPara(); endList();
+        var h = el("h" + m[1].length); inline(m[2], h); root.appendChild(h); i++; continue;
+      }
+      if (/^\s{0,3}([-*_])(\s*\1){2,}\s*$/.test(line)) { endPara(); endList(); root.appendChild(el("hr")); i++; continue; }
+      if (/^\s*\|/.test(line) && i + 1 < lines.length && /^\s*\|?\s*:?-{3,}:?\s*(\|\s*:?-{3,}:?\s*)*\|?\s*$/.test(lines[i + 1])) {
+        endPara(); endList();
+        var table = el("table"), thead = el("thead"), tr = el("tr"), cells = splitRow(line);
+        for (var c1 = 0; c1 < cells.length; c1++) { var th = el("th"); inline(cells[c1], th); tr.appendChild(th); }
+        thead.appendChild(tr); table.appendChild(thead);
+        var tbody = el("tbody"); i += 2;
+        while (i < lines.length && /^\s*\|/.test(lines[i])) {
+          var r = el("tr"), rc = splitRow(lines[i]);
+          for (var c2 = 0; c2 < rc.length; c2++) { var td = el("td"); inline(rc[c2], td); r.appendChild(td); }
+          tbody.appendChild(r); i++;
+        }
+        table.appendChild(tbody); root.appendChild(table); continue;
+      }
+      if ((m = /^\s*>\s?(.*)$/.exec(line))) {
+        endPara(); endList();
+        var bq = el("blockquote"), bp = el("p"), first = true;
+        while (i < lines.length && (m = /^\s*>\s?(.*)$/.exec(lines[i]))) { inline((first ? "" : " ") + m[1], bp); first = false; i++; }
+        bq.appendChild(bp); root.appendChild(bq); continue;
+      }
+      var ul = /^\s*[-*+]\s+(.*)$/.exec(line), ol = /^\s*(\d+)[.)]\s+(.*)$/.exec(line);
+      if (ul || ol) {
+        endPara();
+        var type = ul ? "ul" : "ol";
+        if (!list || listType !== type) {
+          list = el(type); listType = type; root.appendChild(list);
+          if (ol && ol[1] !== "1") list.setAttribute("start", String(parseInt(ol[1], 10)));
+        }
+        lastLi = el("li"); inline(ul ? ul[1] : ol[2], lastLi); list.appendChild(lastLi); i++; continue;
+      }
+      if (lastLi) { inline(" " + line.trim(), lastLi); i++; continue; }
+      para.push(line.trim()); i++;
+    }
+    endPara();
+  }
+
+  /* ---------- Key terms: sentences quoted word for word from the agreement, found by section number ---------- */
+  var SUMMARY = [
+    { label: "What is covered", parts: [["1.1", "The Designer will provide"], ["1.3", "Lines B and C"]] },
+    { label: "Fee", parts: [["5.1", "The fee is fixed"]] },
+    { label: "Deposit and balance", parts: [["5.2", "Drop Shot pays a deposit"], ["5.2", "The balance of"]] },
+    { label: "Your dates", list: "3.1", parts: [["3.2", "A final-files date has no grace period"]] },
+    { label: "Ownership", parts: [["6", "Until Drop Shot has paid"], ["6", "\"Work\" means"], ["6", "Effective automatically on that payment"]] },
+    { label: "Ending the agreement", parts: [["9.2", "Either party may end"], ["9.2", "Drop Shot may also end"], ["9.2", "The Designer may not end"], ["9.3", "Within five business days, Drop Shot pays"]] }
+  ];
+  function indexSections(md) {
+    var text = {}, lists = {}, cur = null;
+    String(md).replace(/\r\n?/g, "\n").split("\n").forEach(function (line) {
+      var m;
+      if ((m = /^##\s+(\d+)\.\s/.exec(line))) { cur = m[1]; return; }
+      if (/^#/.test(line)) { cur = null; return; }
+      if ((m = /^\*\*(\d+\.\d+)\s[^*]*\*\*\s*(.*)$/.exec(line))) { cur = m[1]; text[cur] = (text[cur] ? text[cur] + " " : "") + m[2]; return; }
+      if (!cur) return;
+      if ((m = /^\s*[-*+]\s+(.*)$/.exec(line))) { (lists[cur] = lists[cur] || []).push(m[1]); return; }
+      if (line.trim()) text[cur] = (text[cur] ? text[cur] + " " : "") + line.trim();
+    });
+    return { text: text, lists: lists };
+  }
+  function sentences(s) { return String(s || "").replace(/\.\s+(?=[A-Z"(])/g, ".\u0000").split("\u0000"); }
+  function plain(s) { return s.replace(/\*\*/g, ""); }
+  function buildSummary(md) {
+    var idx = indexSections(md), dl = $("summary"), shown = 0;
+    while (dl.firstChild) dl.removeChild(dl.firstChild);
+    SUMMARY.forEach(function (item) {
+      var found = [], ok = true;
+      item.parts.forEach(function (p) {
+        var hit = sentences(idx.text[p[0]]).filter(function (s) { return plain(s).indexOf(p[1]) === 0; })[0];
+        if (hit) found.push(hit); else ok = false;
+      });
+      var listItems = item.list ? (idx.lists[item.list] || []) : [];
+      if (item.list && !listItems.length) ok = false;
+      if (!ok) return;
+      var dt = el("dt"), dd = el("dd");
+      dt.textContent = item.label;
+      if (listItems.length) { var ul = el("ul"); listItems.forEach(function (li) { var x = el("li"); inline(li, x); ul.appendChild(x); }); dd.appendChild(ul); }
+      found.forEach(function (s) { var p = el("p"); inline(s, p); dd.appendChild(p); });
+      dl.appendChild(dt); dl.appendChild(dd); shown++;
+    });
+    $("summary-card").hidden = !shown;
+    $("summary-card").setAttribute("data-items", String(shown));
+  }
+
+  /* ---------- Dates ---------- */
+  var DATE_FIELDS = ["date_directions", "date_refinement", "date_final_a", "date_final_d"];
+  var DATE_NAME = { date_directions: "first directions", date_refinement: "refinement complete", date_final_a: "final files for Line A", date_final_d: "final files for Line D" };
+  function isIso(s) { return /^\d{4}-\d{2}-\d{2}$/.test(s); }
+  function realDate(s) {
+    if (!isIso(s)) return false;
+    var p = s.split("-").map(Number), d = new Date(Date.UTC(p[0], p[1] - 1, p[2]));
+    return d.getUTCFullYear() === p[0] && d.getUTCMonth() === p[1] - 1 && d.getUTCDate() === p[2];
+  }
+  function longDate(s) {
+    if (!realDate(s)) return s;
+    var p = s.split("-").map(Number);
+    return new Date(Date.UTC(p[0], p[1] - 1, p[2])).toLocaleDateString("en-US", { timeZone: "UTC", weekday: "long", month: "long", day: "numeric", year: "numeric" });
+  }
+  function limits() { return (A && A.schedule_limits) || null; }
+  function today() { return (A && A.today_pacific) || ""; }
+  /* Review time: refinement complete at least N business days (Monday to Friday; public holidays are not skipped) before the earlier final-files date. N comes from the server. */
+  function leadDays() { var L = limits(); var n = L ? Number(L.refinement_lead_business_days) : 0; return n > 0 && n === Math.floor(n) ? n : 0; }
+  function earlierFinal(v) { var a = v.date_final_a, d = v.date_final_d; if (!realDate(a) || !realDate(d)) return ""; return a < d ? a : d; }
+  function minusBusinessDays(iso, n) {
+    var p = iso.split("-").map(Number), t = new Date(Date.UTC(p[0], p[1] - 1, p[2]));
+    while (n > 0) { t.setUTCDate(t.getUTCDate() - 1); var w = t.getUTCDay(); if (w !== 0 && w !== 6) n--; }
+    return t.toISOString().slice(0, 10);
+  }
+  function refinementLimit(v) { var n = leadDays(), e = earlierFinal(v); return n && e ? minusBusinessDays(e, n) : ""; }
+  function daysWord(n) { return n + " business day" + (n === 1 ? "" : "s"); }
+  function tooCloseMessage(v) {
+    var n = leadDays(), e = earlierFinal(v), lim = refinementLimit(v);
+    if (!n) return "Refinement complete is too close to your final-files dates.";
+    if (!lim) return "Refinement complete must be at least " + daysWord(n) + " (Monday to Friday) before your earlier final-files date.";
+    return "Refinement complete must be at least " + daysWord(n) + " (Monday to Friday) before your earlier final-files date, " + longDate(e) + ", so no later than " + longDate(lim) + ".";
+  }
+  function checkDates(v) {
+    var L = limits(), out = {};
+    if (!L) return out;
+    DATE_FIELDS.forEach(function (f) {
+      var d = v[f];
+      if (!d) { out[f] = "Enter the date for " + DATE_NAME[f] + "."; return; }
+      if (!realDate(d)) { out[f] = "Enter a real date."; return; }
+      if (today() && d < today()) { out[f] = "This date is before today, " + longDate(today()) + "."; return; }
+      if (f === "date_directions" && d > L.directions_by) { out[f] = "First directions must be presented by " + longDate(L.directions_by) + "."; return; }
+      if (f !== "date_directions" && d > L.final_by) { out[f] = (f === "date_refinement" ? "Refinement must be complete by " : "Final files must be delivered by ") + longDate(L.final_by) + "."; return; }
+    });
+    if (!out.date_directions && !out.date_refinement && v.date_directions >= v.date_refinement) out.date_refinement = "Refinement complete must come after first directions.";
+    ["date_final_a", "date_final_d"].forEach(function (f) {
+      if (!out[f] && !out.date_refinement && v.date_refinement > v[f]) out[f] = "Final files for Line " + f.slice(-1).toUpperCase() + " cannot come before refinement is complete.";
+    });
+    var lim = refinementLimit(v);
+    if (lim && !out.date_refinement && !out.date_final_a && !out.date_final_d && v.date_refinement > lim) out.date_refinement = tooCloseMessage(v);
+    return out;
+  }
+
+  /* ---------- Form ---------- */
+  function val(id) { var e = $("f-" + id); return e ? e.value : ""; }
+  function norm(s) { return String(s || "").trim().replace(/\s+/g, " ").toLowerCase(); }
+  function hasEntity() { return $("f-has_entity").checked; }
+  function collect() {
+    var v = {
+      full_name: val("full_name").trim(),
+      mailing_address: val("mailing_address").trim(),
+      email: val("email").trim(),
+      entity_name: hasEntity() ? val("entity_name").trim() : "",
+      entity_type: hasEntity() ? val("entity_type").trim() : "",
+      entity_state: hasEntity() ? val("entity_state").trim() : "",
+      typed_signature: val("typed_signature").trim(),
+      consent_esign: $("f-consent_esign").checked,
+      consent_agree: $("f-consent_agree").checked
+    };
+    if (limits()) DATE_FIELDS.forEach(function (f) { v[f] = val(f); });
+    return v;
+  }
+  function validate(v) {
+    var e = {};
+    if (!v.full_name) e.full_name = "Enter your full legal name.";
+    if (!v.mailing_address) e.mailing_address = "Enter your mailing address.";
+    if (!v.email) e.email = "Enter your email.";
+    else if (!/^[^\s@]+@[^\s@]+\.[^\s@]+$/.test(v.email)) e.email = "This does not look like an email address.";
+    if (hasEntity()) {
+      if (!v.entity_name) e.entity_name = "Enter the business name, or untick the box above.";
+      if (!v.entity_type) e.entity_type = "Enter the type of business.";
+      if (!v.entity_state) e.entity_state = "Enter the state where it is registered.";
+    }
+    var d = checkDates(v); for (var k in d) e[k] = d[k];
+    return e;
+  }
+  function showFieldErrors(errs) {
+    var ids = ["full_name", "mailing_address", "email", "entity_name", "entity_type", "entity_state"].concat(DATE_FIELDS);
+    ids.forEach(function (id) {
+      var box = $("e-" + id), inp = $("f-" + id); if (!box || !inp) return;
+      var show = errs[id] && touched[id];
+      box.hidden = !show; box.textContent = show ? errs[id] : "";
+      if (show) inp.setAttribute("aria-invalid", "true"); else inp.removeAttribute("aria-invalid");
+    });
+  }
+  function partyPreview(v) {
+    if (v.entity_name && v.full_name) return v.entity_name + ", acting by " + v.full_name;
+    return v.entity_name || v.full_name;
+  }
+  function liveFill() {
+    var v = collect();
+    var fill = {
+      designer_party: partyPreview(v),
+      designer_full_name: v.full_name,
+      designer_mailing_address: v.mailing_address,
+      designer_email: v.email,
+      designer_signature: v.typed_signature
+    };
+    DATE_FIELDS.forEach(function (f) { fill["designer_" + f] = v[f] && realDate(v[f]) ? longDate(v[f]) : ""; });
+    var spans = document.querySelectorAll("#doc [data-ph], #summary [data-ph]");
+    for (var i = 0; i < spans.length; i++) {
+      var s = spans[i], name = s.getAttribute("data-ph");
+      if (!(name in fill)) continue;
+      var t = fill[name];
+      if (t) { s.textContent = t; s.classList.add("filled"); }
+      else { s.textContent = "[" + (BLANK_LABEL[name] || name) + "]"; s.classList.remove("filled"); }
+    }
+  }
+  function refreshDateHints() {
+    var L = limits(); if (!L) return;
+    var v = collect(), n = leadDays(), lim = refinementLimit(v);
+    $("h-date_directions").textContent = "Latest you may choose: " + longDate(L.directions_by) + ".";
+    $("h-date_final_a").textContent = "The agreement holds you to this date for Line A. Latest you may choose: " + longDate(L.final_by) + ".";
+    $("h-date_final_d").textContent = "The agreement holds you to this date for Line D. Latest you may choose: " + longDate(L.final_by) + ".";
+    $("h-date_refinement").textContent = n
+      ? (lim ? "With your final-files dates, the latest you may choose is " + longDate(lim < L.final_by ? lim : L.final_by) + "." : "At least " + daysWord(n) + " (Monday to Friday) before your earlier final-files date. Latest you may choose: " + longDate(L.final_by) + ".")
+      : "Latest you may choose: " + longDate(L.final_by) + ".";
+  }
+  function refresh() {
+    var v = collect(), errs = validate(v), needs = [];
+    refreshDateHints();
+    showFieldErrors(errs);
+    var sig = $("s-typed_signature");
+    if (!v.typed_signature) { sig.textContent = ""; sig.className = "hint"; }
+    else if (norm(v.typed_signature) === norm(v.full_name) && v.full_name) { sig.textContent = "Matches your full legal name."; sig.className = "ok"; }
+    else { sig.textContent = "Does not match your full legal name yet."; sig.className = "err"; }
+    if (!fullOpenedAt) needs.push("Open and read the full agreement.");
+    if (errs.full_name || errs.mailing_address || errs.email || errs.entity_name || errs.entity_type || errs.entity_state) needs.push("Complete your details.");
+    if (DATE_FIELDS.some(function (f) { return errs[f]; })) needs.push("Enter valid delivery dates.");
+    if (W9.state === "uploading") needs.push("Wait for the W-9 upload to finish.");
+    if (!v.consent_esign) needs.push("Tick: I consent to sign electronically.");
+    if (!v.consent_agree) needs.push("Tick: I have read and agree.");
+    if (!v.typed_signature || norm(v.typed_signature) !== norm(v.full_name)) needs.push("Type your signature to match your full legal name.");
+    var list = $("needs"); while (list.firstChild) list.removeChild(list.firstChild);
+    needs.forEach(function (n) { var li = el("li"); li.textContent = n; list.appendChild(li); });
+    list.hidden = !needs.length;
+    var ready = !needs.length && !submitting;
+    $("accept").setAttribute("aria-disabled", ready ? "false" : "true");
+    liveFill();
+    return ready;
+  }
+
+  /* ---------- The full agreement: collapsed by default, expanded in place ---------- */
+  function setDocOpen(open, scroll) {
+    $("doc-wrap").hidden = !open;
+    $("toggle-doc").setAttribute("aria-expanded", open ? "true" : "false");
+    $("toggle-label").textContent = open ? "Hide the full agreement" : "Read the full agreement";
+    if (open && !fullOpenedAt) {
+      fullOpenedAt = new Date().toISOString();
+      $("read-state").textContent = "Opened"; $("read-state").className = "read-state ok";
+      refresh();
+    }
+    if (open && scroll) {
+      $("agreement-card").scrollIntoView({ block: "start" });
+      try { $("doc-h").focus({ preventScroll: true }); } catch (e) { $("doc-h").focus(); }
+    }
+  }
+
+  /* ---------- W-9, optional ---------- */
+  var W9_TYPES = { pdf: "application/pdf", jpg: "image/jpeg", jpeg: "image/jpeg", png: "image/png", heic: "image/heic", heif: "image/heif" };
+  var W9_ALLOWED = { "application/pdf": 1, "image/jpeg": 1, "image/png": 1, "image/heic": 1, "image/heif": 1 };
+  var W9_MAX = 10 * 1024 * 1024;
+  function w9TypeOf(file) {
+    if (file.type && W9_ALLOWED[file.type]) return file.type;
+    var ext = (file.name.split(".").pop() || "").toLowerCase();
+    return W9_TYPES[ext] || "";
+  }
+  function mb(n) { return n < 1024 ? n + " bytes" : n < 1024 * 1024 ? Math.max(1, Math.round(n / 1024)) + " KB" : (n / (1024 * 1024)).toFixed(1) + " MB"; }
+  function w9Say(text, kind) { var s = $("w9-status"); s.textContent = text; s.className = "w9-status" + (kind ? " " + kind : ""); }
+  function w9Bar(pct) { $("w9-bar").hidden = pct === null; $("w9-bar-fill").style.width = (pct || 0) + "%"; }
+  function w9Reset(msg) {
+    W9 = { file: null, type: "", path: "", state: "none" };
+    $("f-w9").value = ""; $("w9-upload").disabled = true; $("w9-clear").hidden = true; w9Bar(null); w9Say(msg || "", ""); refresh();
+  }
+  function w9Chosen() {
+    var f = $("f-w9").files && $("f-w9").files[0];
+    W9.path = ""; w9Bar(null);
+    if (!f) { w9Reset(""); return; }
+    var t = w9TypeOf(f);
+    if (!t) { W9 = { file: null, type: "", path: "", state: "failed" }; $("w9-upload").disabled = true; $("w9-clear").hidden = false; w9Say("That file type is not accepted. Use a PDF, JPEG, PNG, HEIC or HEIF file. The W-9 is optional; you can accept without it.", "bad"); refresh(); return; }
+    if (f.size > W9_MAX) { W9 = { file: null, type: "", path: "", state: "failed" }; $("w9-upload").disabled = true; $("w9-clear").hidden = false; w9Say("That file is larger than 10 MB. Choose a smaller file, or accept without it; the W-9 is optional.", "bad"); refresh(); return; }
+    if (f.size === 0) { W9 = { file: null, type: "", path: "", state: "failed" }; $("w9-upload").disabled = true; $("w9-clear").hidden = false; w9Say("That file is empty. Choose another file, or accept without it.", "bad"); refresh(); return; }
+    W9 = { file: f, type: t, path: "", state: "chosen" };
+    $("w9-upload").disabled = false; $("w9-clear").hidden = false;
+    w9Say(f.name + " (" + mb(f.size) + ") is ready. Press Upload W-9 to attach it.", ""); refresh();
+  }
+  function w9Message(code) {
+    switch (code) {
+      case "unsupported_type": return "That file type is not accepted. Use a PDF, JPEG, PNG, HEIC or HEIF file.";
+      case "too_large": return "That file is larger than 10 MB.";
+      case "invalid_or_expired": return "This link no longer works, so the W-9 could not be uploaded.";
+    }
+    return "The upload did not work.";
+  }
+  function w9Upload() {
+    if (!W9.file || W9.state === "uploading") return;
+    if (preview) { W9.state = "done"; W9.path = "preview"; $("w9-upload").disabled = true; w9Say("Preview: nothing is uploaded.", "good"); refresh(); return; }
+    var file = W9.file, type = W9.type;
+    W9.state = "uploading"; $("w9-upload").disabled = true; w9Bar(0); w9Say("Uploading " + file.name + ".", ""); refresh();
+    function fail(text) { W9.state = "failed"; W9.path = ""; $("w9-upload").disabled = false; w9Bar(null); w9Say(text + " You can try again, or accept without it; the W-9 is optional.", "bad"); refresh(); }
+    fn("vendor-agreement-w9", { token: token, content_type: type, size_bytes: file.size }).then(function (r) {
+      if (!r || !r.ok || typeof r.upload_url !== "string" || r.upload_url.indexOf(SUPABASE_URL + "/") !== 0 || !r.path) { fail(w9Message(r && r.error)); return; }
+      if (typeof r.max_bytes === "number" && file.size > r.max_bytes) { fail(w9Message("too_large")); return; }
+      var x = new XMLHttpRequest();
+      x.open("PUT", r.upload_url, true);
+      x.setRequestHeader("Content-Type", type);
+      x.upload.onprogress = function (e) { if (e.lengthComputable) { var p = Math.round(e.loaded / e.total * 100); w9Bar(p); w9Say("Uploading " + file.name + ": " + p + "%.", ""); } };
+      x.onload = function () {
+        if (x.status >= 200 && x.status < 300) {
+          W9.state = "done"; W9.path = r.path; w9Bar(100);
+          w9Say("Uploaded: " + file.name + " (" + mb(file.size) + "). It will be attached when you accept.", "good"); refresh();
+        } else if (x.status === 409) { fail("That upload link was already used."); }
+        else { fail("The upload did not work."); }
+      };
+      x.onerror = function () { fail("The upload did not work because the connection failed."); };
+      x.send(file);
+    }).catch(function () { fail("We could not reach the server."); });
+  }
+
+  /* ---------- Server error codes in plain words ---------- */
+  var FIELD_WORDS = {
+    full_name: "your full legal name", mailing_address: "your mailing address", email: "your email",
+    entity_name: "the business name", entity_type: "the type of business", entity_state: "the state of the business",
+    typed_signature: "your typed signature", consent_esign: "your consent to sign electronically", consent_agree: "your agreement",
+    displayed_sha256: "the agreement text check",
+    date_directions: "the date for first directions", date_refinement: "the date for refinement complete",
+    date_final_a: "the date for final files, Line A", date_final_d: "the date for final files, Line D"
+  };
+  function words(f) { return FIELD_WORDS[f] || f.replace(/_/g, " "); }
+  function serverMessage(code) {
+    var L = limits() || {}, m;
+    switch (code) {
+      case "invalid_or_expired": return "This link no longer works. Nothing was recorded. Ask Drop Shot Coffee for a new link.";
+      case "already_accepted": return "This agreement has already been accepted. Showing the executed copy.";
+      case "not_open": return "This agreement is not open for signing. Nothing was recorded.";
+      case "consent_required": return "Tick both boxes: consent to sign electronically, and that you have read and agree.";
+      case "signature_mismatch": return "Your typed signature must match your full legal name.";
+      case "text_changed": return "The agreement text changed after this page loaded. Nothing was recorded. Reload the page and read the current version.";
+      case "full_text_not_opened": return "Open the full agreement before accepting. Nothing was recorded.";
+      case "w9_not_found": return "We could not find your uploaded W-9, so nothing was recorded. Press Accept again to accept without it, or upload it again.";
+      case "unsupported_type": return "That W-9 file type is not accepted. Nothing was recorded. Press Accept again to accept without it.";
+      case "too_large": return "That W-9 file is larger than 10 MB. Nothing was recorded. Press Accept again to accept without it.";
+      case "invalid_date": return "One of your delivery dates is not a real date.";
+      case "date_directions_after_limit": return "First directions must be presented by " + longDate(L.directions_by || "") + ".";
+      case "date_refinement_after_limit": return "Refinement must be complete by " + longDate(L.final_by || "") + ".";
+      case "date_final_a_after_limit": return "Final files for Line A must be delivered by " + longDate(L.final_by || "") + ".";
+      case "date_final_d_after_limit": return "Final files for Line D must be delivered by " + longDate(L.final_by || "") + ".";
+      case "date_order_directions_refinement": return "Refinement complete must come after first directions.";
+      case "date_order_refinement_final": return "Both final-files dates must be on or after the date refinement is complete.";
+      case "date_refinement_too_close": return tooCloseMessage(collect());
+    }
+    if ((m = /^missing_(.+)$/.exec(code))) return "Please enter " + words(m[1]) + ".";
+    if ((m = /^(.+)_before_today$/.exec(code))) return "The date for " + (DATE_NAME[m[1]] || words(m[1])) + " is before today. Choose today or a later date.";
+    if ((m = /^invalid_(.+)$/.exec(code))) return "Please check " + words(m[1]) + "; it is not in a form we can accept.";
+    return "We could not record your acceptance. Nothing was recorded. Ask Drop Shot Coffee for help and quote this code: " + code + ".";
+  }
+  function showFormMsg(text) { var b = $("form-msg"); b.textContent = text; b.hidden = !text; }
+
+  /* ---------- Accept ---------- */
+  function sha256Hex(s) {
+    return crypto.subtle.digest("SHA-256", new TextEncoder().encode(s)).then(function (buf) {
+      return Array.prototype.map.call(new Uint8Array(buf), function (x) { return ("0" + x.toString(16)).slice(-2); }).join("");
+    });
+  }
+  function onSubmit(ev) {
+    ev.preventDefault();
+    ["full_name", "mailing_address", "email", "entity_name", "entity_type", "entity_state"].concat(DATE_FIELDS).forEach(function (f) { touched[f] = true; });
+    if (!refresh() || submitting) { showFormMsg(""); var first = document.querySelector("[aria-invalid='true']"); if (first) first.focus(); return; }
+    if (!navigator.onLine) { showFormMsg("You are offline. Connect and try again. Nothing was recorded."); return; }
+    if (!window.crypto || !crypto.subtle) { showFormMsg("This browser cannot run the check this page needs. Open the link in a current version of Safari, Chrome, Edge or Firefox."); return; }
+    submitting = true; showFormMsg(""); var btn = $("accept"); btn.textContent = "Recording your acceptance"; btn.setAttribute("aria-disabled", "true");
+    var v = collect(), fields = {
+      full_name: v.full_name, mailing_address: v.mailing_address, email: v.email,
+      entity_name: v.entity_name, entity_type: v.entity_type, entity_state: v.entity_state,
+      typed_signature: v.typed_signature, consent_esign: true, consent_agree: true,
+      full_text_opened: true, full_text_opened_at: fullOpenedAt
+    };
+    if (limits()) DATE_FIELDS.forEach(function (f) { fields[f] = v[f]; });
+    if (W9.state === "done" && W9.path) fields.w9_path = W9.path;
+    sha256Hex(agreementMd).then(function (hex) {
+      fields.displayed_sha256 = hex;
+      if (preview) return previewAccept(fields);
+      return rpc("accept_agreement", { p_token: token, p_fields: fields });
+    }).then(function (r) {
+      submitting = false; btn.textContent = "Accept";
+      if (r.ok) { showDone({ reference: r.reference, accepted_at: r.accepted_at, full_name: fields.full_name, executed_md: r.executed_md, executed_sha256: r.executed_sha256 }, typeof r.w9_recorded === "boolean" ? r.w9_recorded : null); return; }
+      if (r.error === "already_accepted") { showFormMsg(serverMessage(r.error)); return load(); }
+      if (r.error === "invalid_or_expired") { invalid(); return; }
+      if (r.error === "not_open") { setState("notopen"); return; }
+      if (r.error === "w9_not_found" || r.error === "unsupported_type" || r.error === "too_large") { w9Reset("Your W-9 is not attached. You can accept without it, or upload it again."); }
+      if (r.error === "full_text_not_opened") { fullOpenedAt = ""; $("read-state").textContent = "Not opened yet"; $("read-state").className = "read-state"; }
+      showFormMsg(serverMessage(r.error || "unknown")); refresh();
+    }).catch(function () {
+      submitting = false; btn.textContent = "Accept"; refresh();
+      showFormMsg("We could not reach the server, so nothing was recorded. Check your connection and press Accept again.");
+    });
+  }
+
+  /* ---------- Exhibits ---------- */
+  function ordinal(n) { n = Number(n) || 0; var s = ["th", "st", "nd", "rd"], v = n % 100; return n + (s[(v - 20) % 10] || s[v] || s[0]); }
+  function renderExhibits(list) {
+    var ol = $("ex-list"); while (ol.firstChild) ol.removeChild(ol.firstChild);
+    var items = (list || []).slice().sort(function (a, b) { return (a.precedence || 0) - (b.precedence || 0); });
+    if (!items.length) { var none = el("li", "ex-prec"); none.textContent = "No exhibits are attached to this agreement."; ol.appendChild(none); return; }
+    items.forEach(function (x) {
+      var li = el("li", "ex-item"), txt = el("div", "ex-txt"), t = el("div", "ex-title"), p = el("div", "ex-prec"), msg = el("div", "ex-msg");
+      t.textContent = x.title || ("Exhibit " + x.key);
+      p.textContent = ordinal(x.precedence) + " in the order of precedence, after the agreement itself";
+      msg.hidden = true; msg.setAttribute("aria-live", "polite");
+      txt.appendChild(t); txt.appendChild(p); txt.appendChild(msg);
+      var b = el("button", "btn-open"); b.type = "button"; b.textContent = "Open";
+      b.setAttribute("aria-label", "Open " + (x.title || ("Exhibit " + x.key)) + " in a new tab");
+      b.addEventListener("click", function () { openExhibit(x.key, b, msg); });
+      li.appendChild(txt); li.appendChild(b); ol.appendChild(li);
+    });
+  }
+  function openExhibit(key, btn, msg) {
+    while (msg.firstChild) msg.removeChild(msg.firstChild); msg.hidden = true;
+    if (preview) { msg.textContent = "Preview: exhibits open only from a real link."; msg.hidden = false; return; }
+    var w = window.open("", "_blank");
+    if (w) { try { w.opener = null; w.document.title = "Opening exhibit"; } catch (e) {} }
+    btn.disabled = true; btn.textContent = "Opening";
+    fn("vendor-agreement-exhibit", { token: token, key: key }).then(function (r) {
+      btn.disabled = false; btn.textContent = "Open";
+      if (!r || !r.ok || typeof r.url !== "string" || r.url.indexOf("https://") !== 0) {
+        if (w) w.close();
+        msg.textContent = r && r.error === "invalid_or_expired" ? "This link no longer works, so the exhibit cannot be opened." : "We could not open this exhibit. Try again.";
+        msg.hidden = false; return;
+      }
+      if (w) { w.location.replace(r.url); return; }
+      var a = el("a"); a.href = r.url; a.target = "_blank"; a.rel = "noopener noreferrer"; a.textContent = "Your browser blocked the new tab. Open the exhibit here.";
+      msg.appendChild(a); msg.hidden = false;
+      var secs = typeof r.expires_in === "number" ? r.expires_in : 300;
+      setTimeout(function () { if (a.parentNode) { a.parentNode.removeChild(a); msg.hidden = true; } }, Math.max(0, secs - 10) * 1000);
+    }).catch(function () {
+      btn.disabled = false; btn.textContent = "Open"; if (w) w.close();
+      msg.textContent = "We could not reach the server. Check your connection and try again."; msg.hidden = false;
+    });
+  }
+
+  /* ---------- Views ---------- */
+  function invalid(kind) {
+    if (kind === "missing") {
+      $("invalid-title").textContent = "This page needs the link you were sent.";
+      $("invalid-body").textContent = "Open the agreement from the link you received. The link carries your personal access code.";
+    }
+    setState("invalid");
+  }
+  function fmtStamp(iso) {
+    var d = new Date(iso); if (isNaN(d.getTime())) return String(iso || "");
+    return d.toLocaleString("en-US", { timeZone: "America/Los_Angeles", weekday: "long", month: "long", day: "numeric", year: "numeric", hour: "numeric", minute: "2-digit", timeZoneName: "short" });
+  }
+  function showDone(acc, w9Recorded) {
+    $("d-ref").textContent = acc.reference || "";
+    $("d-at").textContent = fmtStamp(acc.accepted_at);
+    $("d-name").textContent = acc.full_name || "";
+    $("d-sha").textContent = acc.executed_sha256 || "";
+    var w9Known = typeof w9Recorded === "boolean";
+    $("d-w9-dt").hidden = !w9Known; $("d-w9").hidden = !w9Known;
+    $("d-w9").textContent = w9Known ? (w9Recorded ? "Received" : "Not provided") : "";
+    renderMarkdown(acc.executed_md || "", $("executed"));
+    $("test-again").hidden = !(A && A.is_test);
+    $("skip-link").hidden = true;
+    setState("done"); window.scrollTo(0, 0);
+    try { $("confirm-box").focus({ preventScroll: true }); } catch (e) { $("confirm-box").focus(); }
+  }
+  function showReady() {
+    agreementMd = typeof A.agreement_md === "string" ? A.agreement_md : "";
+    var title = A.title || "Agreement";
+    $("ready-title").textContent = title;
+    $("open-from-accept").textContent = title;
+    renderExhibits(A.exhibits);
+    renderMarkdown(agreementMd, $("doc"));
+    buildSummary(agreementMd);
+    var words = (agreementMd.replace(/\{\{[a-z0-9_]+\}\}/g, " ").match(/[A-Za-z0-9$][A-Za-z0-9$,.'%-]*/g) || []).length;
+    $("doc-sub").textContent = "About " + (Math.round(words / 50) * 50).toLocaleString("en-US") + " words. Open it to read every term; the highlighted blanks fill in as you complete the form.";
+    setDocOpen(false);
+    fullOpenedAt = ""; $("read-state").textContent = "Not opened yet"; $("read-state").className = "read-state";
+    var L = limits();
+    $("dates-fs").hidden = !L;
+    $("w9-n").textContent = L ? "3" : "2"; $("sign-n").textContent = L ? "4" : "3";
+    if (L) {
+      var n = leadDays();
+      $("dates-note").textContent = "These dates go into the agreement as your delivery schedule for Lines A and D. The final-files dates you choose are the delivery dates the agreement holds you to. " +
+        longDate(L.directions_by) + " (first directions) and " + longDate(L.final_by) + " (the other three) are only the latest dates you may choose. Each date must be today or later, refinement complete must come after first directions" +
+        (n ? ", and refinement complete must be at least " + daysWord(n) + " (Monday to Friday) before your earlier final-files date." : ", and both final-files dates must be on or after refinement complete.");
+      DATE_FIELDS.forEach(function (f) {
+        var inp = $("f-" + f); if (today()) inp.min = today(); inp.max = f === "date_directions" ? L.directions_by : L.final_by;
+      });
+    }
+    $("skip-link").hidden = false;
+    setState("ready");
+    refresh();
+  }
+  function route(r) {
+    A = r;
+    $("test-banner").hidden = !r.is_test;
+    if (r.acceptance) { showDone(r.acceptance, null); return; }
+    if (r.status !== "sent") { setState("notopen"); return; }
+    showReady();
+  }
+
+  /* ---------- Preview: sample text for layout review only, nothing is sent ---------- */
+  var SAMPLE_MD = "# SAMPLE AGREEMENT\n\nPreview text for layout review only. It is not the agreement.\n\nThis sample is between **Drop Shot Coffee, Inc.** and **{{designer_party}}** (the \"Designer\").\n\n## 1. Services\n\n**1.1 Services.** The Designer will provide the sample services.\n\n**1.3 Scope.** Lines B and C are sample exclusions.\n\n## 3. Schedule\n\n**3.1 Dates.** The Designer chose these sample dates:\n\n- First design directions presented: {{designer_date_directions}}\n- Refinement complete: {{designer_date_refinement}}\n- Final files, Line A: {{designer_date_final_a}}\n- Final files, Line D: {{designer_date_final_d}}\n\n**3.2 Grace.** A final-files date has no grace period in this sample.\n\n## Signatures\n\n- Signed electronically by: {{designer_signature}}\n- Name of Signer: {{designer_full_name}}\n- Mailing address: {{designer_mailing_address}}\n- Email: {{designer_email}}\n- Accepted: {{acceptance_timestamp}}\n- Reference: {{acceptance_reference}}\n";
+  function previewData() {
+    var t = new Date(), y = t.getFullYear(), mo = ("0" + (t.getMonth() + 1)).slice(-2), d = ("0" + t.getDate()).slice(-2);
+    return { ok: true, ref: "PREVIEW", title: "Sample agreement (preview)", is_test: true, status: "sent", agreement_md: SAMPLE_MD,
+      today_pacific: y + "-" + mo + "-" + d, schedule_limits: { directions_by: "2026-10-12", final_by: "2026-10-23", refinement_lead_business_days: 2 },
+      exhibits: [{ key: "A", title: "Exhibit A - sample", precedence: 1 }, { key: "B", title: "Exhibit B - sample", precedence: 2 }], acceptance: null };
+  }
+  function previewAccept(f) {
+    var md = SAMPLE_MD;
+    var fill = { designer_party: partyPreview(f), designer_full_name: f.full_name, designer_mailing_address: f.mailing_address, designer_email: f.email,
+      designer_signature: f.typed_signature, acceptance_timestamp: fmtStamp(new Date().toISOString()), acceptance_reference: "PREVIEW" };
+    DATE_FIELDS.forEach(function (k) { fill["designer_" + k] = longDate(f[k]); });
+    md = md.replace(/\{\{([a-z0-9_]+)\}\}/g, function (m, n) { return n in fill ? String(fill[n]).replace(/([\\`*_{}\[\]])/g, "\\$1") : m; });
+    return sha256Hex(md).then(function (h) { return { ok: true, reference: "PREVIEW", accepted_at: new Date().toISOString(), executed_md: md, executed_sha256: h, w9_recorded: !!f.w9_path }; });
+  }
+
+  /* ---------- Start ---------- */
+  function load() {
+    if (preview) { route(previewData()); return; }
+    if (!token) { invalid("missing"); return; }
+    if (!/^[A-Za-z0-9_-]{43}$/.test(token)) { invalid(); return; }
+    if (!navigator.onLine) { setState("offline"); return; }
+    setState("loading");
+    return rpc("get_agreement", { p_token: token }).then(function (r) {
+      if (!r.ok) { if (r.error === "not_open") setState("notopen"); else invalid(); return; }
+      route(r);
+    }).catch(function () { setState("network"); });
+  }
+  function wire() {
+    var form = $("form");
+    form.addEventListener("submit", onSubmit);
+    form.addEventListener("input", function (e) { if (e.target && e.target.name) touched[e.target.name] = true; refresh(); });
+    form.addEventListener("change", function (e) { if (e.target && e.target.name) touched[e.target.name] = true; refresh(); });
+    form.addEventListener("focusout", function (e) { if (e.target && e.target.name && e.target.value) touched[e.target.name] = true; refresh(); });
+    $("f-has_entity").addEventListener("change", function () { $("entity-fields").hidden = !this.checked; refresh(); });
+    $("toggle-doc").addEventListener("click", function () { setDocOpen($("doc-wrap").hidden, false); });
+    $("collapse-doc").addEventListener("click", function () { setDocOpen(false); $("toggle-doc").focus(); $("agreement-card").scrollIntoView({ block: "start" }); });
+    $("open-from-accept").addEventListener("click", function () { setDocOpen(true, true); });
+    $("f-w9").addEventListener("change", w9Chosen);
+    $("w9-upload").addEventListener("click", w9Upload);
+    $("w9-clear").addEventListener("click", function () { w9Reset("No W-9 will be attached. You can accept without it."); });
+    $("retry").addEventListener("click", load);
+    $("retry-offline").addEventListener("click", load);
+    $("print").addEventListener("click", function () { window.print(); });
+    $("test-again").addEventListener("click", function () { if (A) { A.acceptance = null; w9Reset(""); showReady(); } });
+    $("skip-link").addEventListener("click", function (e) { e.preventDefault(); $("form-h").focus(); });
+  }
+  wire();
+  load();
+})();
+</script>
+</body>
+</html>
